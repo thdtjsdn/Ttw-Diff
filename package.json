@@ -1,0 +1,6 @@
+{
+	"name" : "thdtjsdn"
+	, "version" : "0.1.0"
+	, "main" : "Ttw-Diff-Electron.js"
+	, "v8Flags" : "--expose-gc"
+}
