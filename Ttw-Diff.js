@@ -1,4 +1,4 @@
-console.log(1);STtwUtilBuffer.iconv=require("iconv-lite");global.Lib.Ttw.importTll("./node_modules/exes/Diff.dll");
+console.log(1);STtwUtilBuffer.iconv=require("iconv-lite");global.Lib.Ttw.importTll("./native_modules/Diff.dll");
 //----------------------------------------------------------------------------------------------------;
 var fileNm = "Ttw-Diff.js";
 if( console ) console.log( "[ S ] - " + fileNm + "----------" );
