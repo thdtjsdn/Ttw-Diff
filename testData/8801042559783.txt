@@ -1,0 +1,389 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+	<title>코리안넷, 대한상공회의소 유통물류진흥원 전자카탈로그</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+	<link type="text/css" rel="stylesheet" href="/css/common.css" />
+	<!--[if IE]>
+	<link type="text/css" rel="stylesheet" href="../css/commonIE.css" />
+	<![endif]-->
+	<script type="text/javascript" src="/script/common.js"></script>
+	<script type="text/javascript" src="/js/cm_script.js"></script>
+	<script type="text/javascript" src="/js/prototype.js"></script>
+	<script type="text/javascript" src="/script/menu.js"></script>
+	<script type="text/javascript" src="/js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="/js/jquery-ui-1.9.2.custom.js"></script>
+	<script type="text/javascript" src="/js/jquery.validate.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.9.2.custom.css"/>
+<script type="text/javascript">
+// <![CDATA[
+    	var calOpt = {
+        		showAnimation: 'slide',
+    			showOtherMonths: true,
+    			selectOtherMonths: true,
+    			showButtonPanel: true,
+    			changeMonth: true,
+    			changeYear: true,
+    			showOn: 'both',
+    			buttonImage: '/images/admin_site/icon_calendar.gif',
+    			buttonImageOnly: true,
+    			dateFormat:'yy-mm-dd',
+    			monthNamesShort: ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월' ],
+    			monthNames : ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+    			dayNamesMin : ['일', '월', '화', '수', '목', '금', '토'],
+    			dayNamesShort : ['일', '월', '화', '수', '목', '금', '토'],
+    			showMonthAfterYear: true,
+    			closeText: '닫기',
+				currentText: '오늘'
+        }
+
+
+// ]]>
+</script>
+
+</head>
+<script type="text/javascript">
+function viewImgHpis(obj,url,len) {
+	document.getElementById("detailImage").src = "http://gs1.koreannet.or.kr/product/info/detail/photoView.do?fileNm=" + url;
+	for(var i=1;i<=len;i++) {
+		document.getElementById("thumImg"+i).style.borderColor = "#ffffff";
+	}
+	obj.style.borderColor = "#ff6000";
+}
+
+
+	function goSearch(){
+
+	var noBarcode = document.getElementById("gtin").value;
+
+	if(noBarcode =="" || noBarcode <=1 || noBarcode == null){
+
+		alert("바코드번호를 입력해주세요");
+		noBarcode.focus();
+		return false;
+	}
+
+	 else{
+			var formObj = document.getElementById("FormSearch1");
+			formObj.submit();
+		}
+
+
+}
+
+</script>
+<body>
+<!-- Top 플레쉬 처리 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Skip Navigation -->
+<div id="skipnavi">
+	<ul>
+		<li><a href="#none">대메뉴로 바로가기</a></li>
+		<li><a href="#none">소메뉴로 바로가기</a></li>
+		<li><a href="#none">본문으로 바로가기</a></li>
+		<li><a href="#none">빠른링크로 바로가기</a></li>
+		<li></li>
+	</ul>
+</div>
+<!-- //Skip Navigation -->
+
+<!-- General Navigation Bar -->
+<div id="gnb">
+ 	<img src="/images/topimage/submain_koreannet.jpg" border="0" />
+	<!-- Toparea Flash Alternative -->
+	<div class="alternate" id="GNB_alternate_html">
+		<!-- Utillink Flash Alternative -->
+		<ul title="기능링크">
+			<li><a href="#none">홈</a></li>
+			<li><a href="#none">사이트맵</a></li>
+			<li><a href="#none">시각장애인</a></li>
+		</ul>
+		<!-- Utillink Flash Alternative -->
+		<!-- GNB Flash Alternative -->
+		<h1>Koreannet</h1>
+		<ul title="대메뉴">
+			<li><a href="#none">코리안넷</a></li>
+			<li><a href="#none">서비스</a></li>
+			<li><a href="#none">위해상품판매차단</a></li>
+			<li><a href="#none">자료실</a></li>
+			<li><a href="#none">고객센터</a></li>
+			<li><a href="#none">간편상품정보</a></li>
+		</ul>
+		<!-- GNB Flash Alternative -->
+	</div>
+	<!-- //Toparea Flash Alternative -->
+	<div style="position:absolute;top:0px;left:0px ;width:980px;z-index:1;height:130px">
+	<script type="Text/JavaScript">
+		var html = document.getElementById('GNB_alternate_html').innerHTML;
+		var dispFlash = new SWFLoader();
+
+		dispFlash.init( '980', '120', '/movie/swf/2012TopMenu.swf?selectM=&selectS=');
+		dispFlash.id('GNB');
+		dispFlash.shocknone( html );
+		dispFlash.show();
+		document.getElementById('GNB_alternate_html').style.display="none";
+		var tt=12;
+
+	</script>
+	</div>
+<!--
+	<div id="loginbox" style="z-index:2;padding:5px 2px 0px 0px;">
+		<span><a href="javascript:GoToSignOn();"><img src="../images/btn/btn_systemlink.gif" alt="시스템바로가기" /></a></sapn>
+	</div>
+	-->
+</div>
+<!-- //General Navigation Bar -->
+
+<!-- Top 플레쉬 처리 -->
+
+
+<div id="container">
+	<div id="wrap">
+
+
+
+
+
+
+
+
+	<div id="lnb">
+			<h2><img src="/images/title/h2_.gif" width="190" height="64" alt="코리안넷" /></h2>
+			<div class="tabInLnb clfix" style="display:none">
+				<a href="/contents/etc/sub07_06_01.jsp?menuCode=&selectM=&selectS=1&selectT=0&login=0&human=&banner=1&langType=kor"><img src="/images/common/lnb_tab_korean_off.gif" alt="Korean" /></a>
+				<a href="/contents/etc/sub07_06_01e.jsp?menuCode=&selectM=&selectS=1&selectT=0&login=0&human=&banner=1&langType=eng"><img src="/images/common/lnb_tab_english_off.gif" alt="English" /></a>
+			</div>
+			<!-- Local Navigation Bar -->
+			<!-- LNB Flash Alternative -->
+			<div class="alternative" id="LNB_alternate_html">
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<!-- //LNB Flash Alternative -->
+			<script type="text/javascript">
+				var html = document.getElementById('LNB_alternate_html').innerHTML;
+				var dispFlash = new SWFLoader();
+				dispFlash.init( '190', '400', '/movie/swf/loadMovie.swf?menuCode=&langType=&selectM=0&selectS=0&selectT=0&pageNum=0&login=0&human=&banner=1');
+				dispFlash.id('LNB');
+				dispFlash.shocknone( html );
+				dispFlash.show();
+				document.getElementById('LNB_alternate_html').style.display="none";
+			</script>
+			<!-- //Local Navigation Bar -->
+		</div>
+
+		<div id="contents">
+			<h3 class="alternative">GTIN</h3>
+			<!-- Title -->
+			<h4><img src="/images/title/h4_searchgtin.gif" alt="GTIN" /></h4>
+			<!-- //Title -->
+			<!-- Page Locaiton -->
+			<div id="location">GTIN &gt; <span>GTIN검색</span></div>
+			<!-- //Page Locaiton -->
+			<!-- detailcontent -->
+			<div id="detailcontent">
+			<!-- 실제 콘텐츠 영역 -->
+				<h5><img src="/images/title/h5_gtin.gif" alt="GTIN" /></h5>
+					<p class="gepirDescription"><img src="/images/common/text_gepirdescription1.gif" title="입력창에 바코드 13자리를 입력하신 후 검색 하세요"/></p>
+					<!-- 검색조건 -->
+					<form name="FormSearch1" id="FormSearch1" onsubmit="goSearch();" action="/home/hpisSrchGtin.gs1" method="GET">
+						<!-- <input type="hidden" name="parameter" id="parameter" value="">
+						<input type="hidden" name="subparam" id="subparam" value="1">
+						<input type="hidden" name="mode" id="mode" value="">
+
+						<input type="hidden" name="menucode" value="gepir"> -->
+
+						<div class="SearchCondition" style="background:url(/images/common/bg_gepirbox_new.png) no-repeat left top;height:93px">
+							<dl class="clfix">
+								<dt class="title"><img src="/images/common/dt_gepir_barcode.gif" alt="바코드(GTIN)"/></dt>
+								<dd class="style">
+									<input type="text" style="width:350px;height:30px;letter-spacing:10px;font-size:23px;color:#ffffff;font-weight:bold;" id="gtin"  maxLength="13" name="gtin" onkeypress="javascript:if(event.keyCode<48 || event.keyCode>57)event.returnValue=false;"/>
+									<a href="#none"  onclick="goSearch();"><img src="/images/btn/btn_search.gif" alt="검색" /></a>
+								</dd>
+							</dl>
+						</div>
+
+					</form><!-- 검색조건 -->
+			</div>
+			<!-- //detailcontent -->
+	<div>
+
+	<dl class="gepirResult gtin2017">
+		<dt><img src="/images/common/dt_gepir_searchresult.gif" alt="검색결과" /></dt>
+
+
+
+
+			<div class="productDetailView" style="overflow:hidden;border-top:0 none;">
+					<div class="productTit">
+					8801042559783 &nbsp;&nbsp;&nbsp;&nbsp; (취소)마몽드네일76(테15년
+					</div>
+					<div class="detailImg" onContextMenu="return false;">
+						<div class="imgArea">
+
+
+
+<img src="/images/common/no_img.gif" id="detailImage" />
+
+
+						</div>
+
+						<ul>
+
+
+
+
+
+
+						</ul>
+					</div>
+
+
+
+						<dt class="alternative">상세정보</dt>
+						<dd class="productDetail">
+							<dl title="상세정보">
+
+
+								<dt class="li">최종수정일</dt>
+								<dd class="lis">2015-07-03</dd>
+								<dt class="li">제조사/생산자</dt>
+								<dd class="lis"></dd>
+
+								<dt class="li">출시일</dt>
+								<dd class="lis">2015-07-03</dd>
+								<dt class="li">판매자</dt>
+								<dd class="lis">(주)아모레퍼시픽</dd>
+								<dt class="li">회사주소</dt>
+								<dd class="lis">서울특별시 중구 청계천로 100 (수표동)</dd>
+								<dt class="li">대표전화</dt>
+								<dd class="lis">02-709-5312</dd>
+								<dt class="li">홈페이지/관련사이트</dt>
+								<dd class="lis"><a href="www.amorepacific.co.kr" target="_blank">www.amorepacific.co.kr</a></dd>
+
+							</dl>
+						</dd>
+						<!--
+						<dt class="date"><img src="../images/simpleproduct/text_dt_productdate.gif" alt="일자" /></dt>
+						-->
+
+
+						<dt class="description"><img src="/images/simpleproduct/text_dt_productdescription.gif" alt="상품설명" /></dt>
+						<dd class="description"></dd>
+						<dt class="productStd"><img src="/images/simpleproduct/text_dt_productstd.gif" alt="포장정보 및 규격정보" /></dt>
+						<dd class="productStd clfix">
+							<table summary="포장정보" class="tableTypeDP2">
+								<caption>포장정보</caption>
+								<colgroup>
+									<col style="width:130px;" />
+
+									<col />
+								</colgroup>
+								<tr>
+									<th>가로(너비)</th>
+									<td>0 </td>
+								</tr>
+								<tr>
+									<th>세로(깊이)</th>
+									<td>0 </td>
+								</tr>
+								<tr>
+									<th>높이</th>
+									<td>0 </td>
+								</tr><tr>
+									<th>용량</th>
+									<td>  </td>
+								</tr>
+								<tr>
+									<th>순중량</th>
+									<td>0 </td>
+								</tr>
+								<tr>
+									<th>총중량</th>
+									<td>0 </td>
+								</tr>
+							</table>
+
+						</dd>
+					</dl>
+				</div>
+
+
+
+
+	</dl>
+
+			</div>
+
+
+		</div>
+	</div>
+
+
+
+		<div id="quicklink">
+		<!-- //LNB Flash Alternative -->
+		<script type="Text/JavaScript">
+			var html = document.getElementById('quicklink').innerHTML;
+			var dispFlash = new SWFLoader();
+			dispFlash.init( '100', '325', '/movie/swf/quick_2012.swf?pageNum=&subNum=');
+			dispFlash.id('QUICK');
+			dispFlash.shocknone( html );
+			dispFlash.show();
+			//document.getElementById('quicklink').style.display="none";
+		</script>
+		<!-- //Local Navigation Bar -->
+		<a href="#top"><img src="/images/btn/btn_gotop.gif" alt="top" /></a>
+		</div>
+	</div>
+	<div id="footer">
+	<div id="copyright">
+		<ul class="footlink">
+			<li><a href="#" onclick="window.open('http://gs1.koreannet.or.kr/login/popInfo2.do','','width=685,height=800, left=0,top=0,scrollbars==no,resizeale=no');"><img src="/images/common/footer_link_personal.gif" height="12" alt="개인정보처리방침" /></a></li>
+			<li><a href="/contents/etc/emailRefuse.jsp?menuCode=emailrefuse&isNotLeft=Y&selectM=0&selectS=0&selectT=0&pageNum=0&login=0&human=&banner=0"><img src="/images/common/footer_link_email.gif" width="61" height="12" alt="이메일수집거부" /></a></li>
+			<li><a href="mailto:webmaster@korcham.net"><img src="/images/common/footer_link_contact.gif" width="54" height="12" alt="Contact us" /></a></li>
+			<li><a href="/contents/customer/sub05_05_01.jsp?menuCode=customer&selectM=5&selectS=7&selectT=&pageNum=4&login=0&human=&banner=1"><img src="/images/common/footer_link_way.gif" width="37" height="12" alt="오시는길" /></a></li>
+		</ul>
+		<p><img src="/images/common/footer_address.gif"  alt="신주소. 서울특별시 중구 세종대로 39(남대문로4가. 서울상공회의소) 구주소. 서울특별시 중구 남대문로 4가 45번지 | 전화:02-6050-1461~6 팩스:02-6050-1460" /></p>
+		<p><img src="/images/common/footer_copyright.gif"  alt="Copyright&copy;2009 KorEANnet. All rights reserved." /></p>
+	</div>
+</div>
+<script type="text/javascript">initMoving(document.getElementById("quicklink"), 20, 20, 625);</script>
+
+</body>
+</html>
+
