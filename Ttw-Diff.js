@@ -16,9 +16,10 @@ console.log( r2 );
 console.log( r3 );
 //*/
 
-var s0 = SUtilFsReadStream.getFile( "./kornet_data.txt" ).toString( "UTF8" ).trim();
-var s1 = SUtilFsReadStream.getFile( "./8801042559783.txt" ).toString( "UTF8" ).trim();
-var r4 = global.differ.extract__Identifier( s0, s1, "((", "))" );
+var s0 = SUtilFsReadStream.getFile( "./taobao/template.html" ).toString( "UTF8" ).trim();
+var s1 = SUtilFsReadStream.getFile( "./taobao/1.html" ).toString( "UTF8" ).trim();
+debugger;
+var r4 = global.differ.extract__Identifier( s0, s1, "（（", "））" );
 console.log( r4 );
 
 //----------------------------------------------------------------------------------------------------;
